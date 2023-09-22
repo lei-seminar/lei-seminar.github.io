@@ -1,0 +1,13 @@
+body {
+  background-color: #F6F4EB;
+  text-align: left;
+  padding-top: 5em;
+}
+
+page {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: right;
+  align-items: normal;
+  height: 100vh;
+}

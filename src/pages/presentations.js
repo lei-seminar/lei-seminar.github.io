@@ -48,10 +48,9 @@ const Presentations = () => {
                                 );
                             }
                             else if (field == SLIDES) {
-                                let link = "assets/" + entry[field]
                                 return (
                                     <td>
-                                        <a href={link}>Slides</a>
+                                        <a href={entry[field]}>Slides</a>
                                     </td>
                                 );
                             }

@@ -1,3 +1,4 @@
+import presentation_sep_20 from '../assets/LEI_Presentation_September_20.pdf'
 
 export const DATE =  'Date',
             TITLE = 'Presentation Title',
@@ -20,6 +21,6 @@ export const ENTRIES = [
              ['Sample Paper', "https://ieeexplore.ieee.org/abstract/document/4061472?casa_token=GIzC5gY9jPMAAAAA:hvYmgkmdmvdLpoDYlfmInq-7XpvxereCwP4-N7B5-6jMC-4rjLfTNwryjZAabiLcJCSXxLmFBw"],
              ['Sample Paper 2', "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-6-23"]
          ],
-         "Slides": "LEI_Presentation_September_20.pdf"
+         "Slides": presentation_sep_20
     }
 ];

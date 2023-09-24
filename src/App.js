@@ -6,8 +6,7 @@ import Navbar from "./utils/navbar";
 function App() {
   return (
        <>
-           <h1 style={{marginLeft: "2em", marginTop: "1em"}}> CSE 259: Large Language Models - Reading Group</h1>
-          <Router>
+           <Router>
               <Navbar />
               <Routes>
                   <Route path='/' exact element={<Presentations />} />

@@ -12,6 +12,9 @@ const Navbar = () => {
       <Nav>
         <Bars />
         <NavMenu>
+          <h3 style={{paddingTop: "0.3em", paddingRight: "1em", color: "#ffffff"}}>
+            CSE 259
+          </h3>
           <NavLink to='/presentation' activeStyle>
             Presentations
           </NavLink>

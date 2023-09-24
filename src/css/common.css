@@ -28,14 +28,18 @@ table {
 	border-radius: 10px;
   }
 
-  th, td {
+  td {
 	border: 2px solid black;
 	padding: 8px;
 	text-align: left;
   }
 
   th {
-	background-color: #c2c2c2;
+	  border: 2px solid black;
+	  padding: 8px;
+	  background-color: #c2c2c2;
+	  font-weight: bold;
+	  text-align: center;
   }
 
   tr:nth-child(even) {

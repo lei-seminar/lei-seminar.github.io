@@ -1,13 +1,23 @@
 body {
-  background-color: #F6F4EB;
+  background-color: #F6EFEE;
   text-align: left;
-  padding-top: 5em;
+  padding-top: 0em;
+  font-family: 'Bree Serif', serif;
 }
 
 page {
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   justify-content: right;
   align-items: normal;
   height: 100vh;
+  font-family: 'Bree Serif', serif;
+  padding: 100em;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }

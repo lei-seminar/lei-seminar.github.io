@@ -1,5 +1,4 @@
 import React from 'react';
-import page from "../App.css";
 import container from "../App.css";
 import {table} from '../css/common.css'
 import {PAPER,

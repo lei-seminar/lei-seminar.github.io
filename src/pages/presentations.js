@@ -21,11 +21,9 @@ const Presentations = () => {
                 })}
             </tr>
             {ENTRIES.map(entry => {
-                console.log(Object.keys(entry));
                 return (
                     <tr>
                         {Object.keys(entry).map(field => {
-                            console.log(typeof (field))
 
                             if ([DATE, SPEAKER, TITLE, AFFILIATION].includes(field)) {
                                 return (

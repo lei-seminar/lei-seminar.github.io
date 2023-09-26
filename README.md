@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Reading Group Seminar - Large Language Models
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a webpage to tracks and announces updates for the Reading Group presentation for the LLM reading group in CSE department at UCSD.
 
-## Available Scripts
+## To add a presentation entry:
 
-In the project directory, you can run:
+- All the changes must be done in `main` branch of the project. Do not make any changes to the `gh-pages` branch.
+- In `src/data/presentationData.js` add your entry by adding another dictionary element to the `ENTRIES` list. Your 
+dictionary element must follow the below format
+    ```shell
+    export const ENTRIES = [
+        {...},
+        {...},
+        {
+            "Date" : <date as string>,
+            "Presentation Title": <title as string>,
+            "Speaker": <name as string>,
+            "Affiliation": <affiliation as string>,
+            "Relevant Papers": [
+                [<paper title as string>, <link to the paper as string>],
+                [<paper title as string>, <link to the paper as string>],
+                // add as many papers as needed
+            ],
+            "Slides": <variable name (read next step for more information)> [or] <link to slides as a String> 
+        }
+    ]
+    ```
+- In the above template, for the Slides field, you can link any local files by adding the file to the `src/assest/` directory
+and import the file as a variable to `src/data/presentationData.js`. The import must look something like this
+    ```javascript
+    import fileVariable from '../assets/some_file.pdf' 
+    ```
+    Now you can use `fileVariable` as the value for the `"Slides"` in the above template. Alternatively, you van also simply
+    provide a link to google slides or any url as a string to this field.
 
-### `npm start`
+- Now execute the following commands from the directory where the `package.json` file is present
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - Step 1: Commit the changes.
+    ```shell
+    git add .
+    git commit -m "<commit message>"
+    git push origin main
+    ```
+    - Step 2: Deploy the changes
+  ```shell
+  npm run deploy
+    ```
+  
+- After you run the deploy command the changes should reflect on the webpage in 2-3 minutes. If not check the gh-pages pipeline.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## To add entries to reading list
 
-### `npm test`
+- To add entries to existing sections simply add an element to the list to existing constants in `src/data/readListData.js`
+  - To add a section to the reading list.
+  
+      - Create a new constant to the `src/data/readListData.js` file in the same format of the existing constants. 
+      - Import the constant to `src/pages/readinglist.js` by adding to the import list. 
+    ```javascript
+      import {
+        PAPER,
+        REMARK,
+        SCALING_LAWS,
+        CHAIN_OF_THOUGHT_PROMPTING,
+        RLHF,
+        EMERGING_ABILITIES,
+        TRANSFORMERS,
+        MIXTURE_OF_EXPERTS, 
+        <new constant that you created>
+      } from '../data/readingListData.js'
+    ```
+    - Now copy this fragment of code to the with in the main `<div>` element in `src/pages/readinglist.js`
+    ```javascript
+        <div className="card-body">
+            <h3>
+                <name to diplay for the section>
+            </h3>
+            {getSectionTable(<imported constant variable>)}
+        </div>
+    ```
+    - Now execute the following commands from the directory where the `package.json` file is present
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        - Step 1: Commit the changes.
+      ```shell
+      git add .
+      git commit -m "<commit message>"
+      git push origin main
+      ```
+        - Step 2: Deploy the changes
+      ```shell
+      npm run deploy
+        ```
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    - After you run the deploy command the changes should reflect on the webpage in 2-3 minutes. If not check the gh-pages pipeline.

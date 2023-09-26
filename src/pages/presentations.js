@@ -9,7 +9,6 @@ const Presentations = () => {
   return (
     <div>
         <div className={container} style={{padding: "2em"}}>
-
         </div>
         <div className="card-body">
         <table>

@@ -52,3 +52,5 @@ Thumbs.db
 
 # Prettier
 .prettierignore
+
+package-lock.json

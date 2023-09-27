@@ -15,7 +15,7 @@ justify-content: space-between;
 `;
 
 export const NavLink = styled(Link)`
-color: #ffffff;
+color: #ffffff !important;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -25,12 +25,12 @@ cursor: pointer;
   font-size: 20px;
   font-family: 'Bree Serif', serif;
 &.active {
-	color: #ffffff;
+	color: #ffffff !important;
     font-weight: bold;
 }
 &:hover {
     background-color: #2a6082; /* Replace with your desired background color */
-    color: #ffffff; /* You can change the text color on hover as well */
+    color: #ffffff !important; /* You can change the text color on hover as well */
     font-weight: bold;
     text-decoration: none;
   }

@@ -1,4 +1,4 @@
-import presentation_sep_20 from '../assets/LEI_Presentation_September_20.pdf'
+import presentation_sep_27 from '../assets/Contrastive_Learning_Talk_from_Beamer.pdf'
 
 export const DATE =  'Date',
             TITLE = 'Presentation Title',
@@ -13,14 +13,17 @@ export const TABLE_HEADERS = [
 
 export const ENTRIES = [
     {
-         "Date" : '27th September 2023',
-         "Presentation Title": "To Be filled",
+         "Date" : '09/27/2023',
+         "Presentation Title": "Theory of Contrastive Learning",
          "Speaker": "Weili Cao",
          "Affiliation": "UCSD LEI Research",
          "Relevant Papers": [
-             ['Sample Paper', "https://ieeexplore.ieee.org/abstract/document/4061472?casa_token=GIzC5gY9jPMAAAAA:hvYmgkmdmvdLpoDYlfmInq-7XpvxereCwP4-N7B5-6jMC-4rjLfTNwryjZAabiLcJCSXxLmFBw"],
-             ['Sample Paper 2', "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/1472-6947-6-23"]
+             ['A Simple Framework for Contrastive Learning of Visual Representations', "https://arxiv.org/abs/2002.05709"],
+             ['SimCSE: Simple Contrastive Learning of Sentence Embeddings', "https://arxiv.org/abs/2104.08821"],
+             ['Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere','https://arxiv.org/abs/2005.10242'],
+             ['A Theoretical Analysis of Contrastive Unsupervised Representation Learning', 'https://arxiv.org/abs/1902.09229']
+
          ],
-         "Slides": presentation_sep_20
+         "Slides": presentation_sep_27
     }
 ];

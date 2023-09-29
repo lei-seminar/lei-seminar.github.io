@@ -4,11 +4,10 @@ export const DATE =  'Date',
             TITLE = 'Presentation Title',
             SPEAKER = 'Speaker',
             AFFILIATION = 'Affiliation',
-            PAPERS =  'Relevant Papers',
-            SLIDES = 'Slides';
+            PAPERS =  'Relevant Papers'
 
 export const TABLE_HEADERS = [
-    DATE, TITLE, SPEAKER, AFFILIATION, PAPERS, SLIDES
+    DATE, TITLE, SPEAKER, AFFILIATION, PAPERS,
 ];
 
 export const ENTRIES = [
@@ -24,6 +23,5 @@ export const ENTRIES = [
              ['A Theoretical Analysis of Contrastive Unsupervised Representation Learning', 'https://arxiv.org/abs/1902.09229']
 
          ],
-         "Slides": presentation_sep_27
     }
 ];

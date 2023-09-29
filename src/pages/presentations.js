@@ -44,13 +44,6 @@ const Presentations = () => {
                                     </td>
                                 );
                             }
-                            else if (field == SLIDES) {
-                                return (
-                                    <td>
-                                        <a href={entry[field]}>Slides</a>
-                                    </td>
-                                );
-                            }
                         })}
                     </tr>
                 );

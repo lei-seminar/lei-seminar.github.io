@@ -2,7 +2,7 @@ import React from 'react';
 import container from '../App.css'
 import '../css/foresty.css'
 import {table} from '../css/common.css'
-import {TABLE_HEADERS, ENTRIES, DATE, SLIDES, PAPERS, TITLE, SPEAKER, AFFILIATION} from '../data/presenatationData'
+import {TABLE_HEADERS, ENTRIES, DATE, PAPERS, TITLE, SPEAKER, AFFILIATION} from '../data/presenatationData'
 
 import ContentCard from '../utils/card'
 const Presentations = () => {

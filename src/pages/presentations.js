@@ -32,7 +32,7 @@ const Presentations = () => {
                             else if (field == PAPERS) {
                                 return (
                                     <td>
-                                        <ol>
+                                        <ul>
                                             {entry[field].map(paper => {
                                                 return (
                                                     <li>
@@ -40,7 +40,7 @@ const Presentations = () => {
                                                     </li>
                                                 );
                                             })}
-                                        </ol>
+                                        </ul>
                                     </td>
                                 );
                             }

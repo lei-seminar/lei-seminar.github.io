@@ -12,6 +12,16 @@ export const TABLE_HEADERS = [
 
 export const ENTRIES = [
     {
+        "Date": "10/04/2023",
+        "Presentation Title": "Chain of Thought",
+        "Speaker": "Evelyn Yee",
+        "Affiliation": "UCSD LEI Research",
+        "Relevant Papers": [
+            ["Show Your Work: Scratchpads for Intermediate Computation with Language Models", "https://arxiv.org/abs/2112.00114"],
+            ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models", "https://arxiv.org/abs/2201.11903"]
+        ],
+    },
+    {
          "Date": '09/27/2023',
          "Presentation Title": "Theory of Contrastive Learning",
          "Speaker": "Weili Cao",
@@ -21,7 +31,6 @@ export const ENTRIES = [
              ['SimCSE: Simple Contrastive Learning of Sentence Embeddings', "https://arxiv.org/abs/2104.08821"],
              ['Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere','https://arxiv.org/abs/2005.10242'],
              ['A Theoretical Analysis of Contrastive Unsupervised Representation Learning', 'https://arxiv.org/abs/1902.09229']
-
          ],
     },
     {
@@ -51,15 +60,6 @@ export const ENTRIES = [
             ["READ: Recurrent Adaptation of Large Transformers", "https://arxiv.org/pdf/2305.15348.pdf"],
             ["LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning", "https://arxiv.org/abs/2206.06522"],
             ["LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS", "https://arxiv.org/pdf/2106.09685.pdf"]
-        ],
-    },
-    {
-        "Date": "08/15/2023",
-        "Presentation Title": "RLHF",
-        "Speaker": "Gil Pasternak",
-        "Affiliation": "UCSD LEI Research",
-        "Relevant Papers": [
-            ["Training language models to follow instructions with human feedback", "https://arxiv.org/pdf/2203.02155.pdf"],
         ],
     },
     {

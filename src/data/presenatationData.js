@@ -110,5 +110,14 @@ export const ENTRIES = [
             ["Language Models are Unsupervised Multitask Learners", "https://13699837124766677515.googlegroups.com/attach/4e08b5bfbcab/RadfordWuChildLLuanAmodeiSutskever_2018.pdf?part=0.1&view=1&vt=ANaJVrEvETUn2oiAe33Wh2Sja7kOa_AsLlumNE4rm6PHarJQbHNKLzauNyIceMNLbMa_Z2jLM5TphuneCx7bTTyUF5278-ccQqvKzp0N2-gBEopu01clBr0"]
         ],
     },
+    {
+        "Date": "07/11/2023",
+        "Presentation Title": "Transformers",
+        "Speaker": "Mohan Paturi",
+        "Affiliation": "UCSD LEI Research",
+        "Relevant Papers": [
+            ["Attention Is All You Need", "https://arxiv.org/abs/1706.03762"]
+        ],
+    },
 
 ];

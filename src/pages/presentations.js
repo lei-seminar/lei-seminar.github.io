@@ -8,7 +8,7 @@ import ContentCard from '../utils/card'
 const Presentations = () => {
   return (
     <div>
-        <div className={container} style={{padding: "2em"}}>
+        <div className={container} style={{padding: "1em"}}>
         </div>
         <div className="card-body">
         <table>

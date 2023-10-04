@@ -37,7 +37,7 @@ export const ENTRIES = [
         "Date": "09/19/2023",
         "Presentation Title": "LLMs for theorem provers",
         "Speaker": "Mark Land",
-        "Affiliation": "",
+        "Affiliation": "UCSD LEI Research and Elsevier",
         "Relevant Papers": [
             ["Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs", "https://arxiv.org/pdf/2210.12283.pdf"]
         ],

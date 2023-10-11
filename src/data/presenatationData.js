@@ -11,6 +11,19 @@ export const TABLE_HEADERS = [
 ];
 
 export const ENTRIES = [
+     {
+        "Date": "10/11/2023",
+        "Presentation Title": "LLM's Application in Information Retrieval (IR)",
+        "Speaker": "Xiaoyue Wang",
+        "Affiliation": "UCSD LEI Research",
+        "Relevant Papers": [
+            ["BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models", "https://openreview.net/pdf?id=wCu6T5xFjeJ"],
+            ["SGPT: GPT Sentence Embeddings for Semantic Search", "https://arxiv.org/abs/2202.08904"],
+            ["Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent", "https://arxiv.org/abs/2304.09542"],
+            ["Promptagator: Few-shot Dense Retrieval From 8 Examples", "https://arxiv.org/abs/2209.11755"],
+            ["ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks", "https://arxiv.org/abs/2303.15056"]
+        ],
+    },
     {
         "Date": "10/04/2023",
         "Presentation Title": "Chain of Thought",

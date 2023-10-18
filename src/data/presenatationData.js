@@ -11,6 +11,20 @@ export const TABLE_HEADERS = [
 ];
 
 export const ENTRIES = [
+    {
+        "Date": "10/18/2023",
+        "Presentation Title": "LLM's Model Distillation",
+        "Speaker": "Kaicheng Wang",
+        "Affiliation": "UCSD LEI Research",
+        "Relevant Papers": [
+            ["Self-Instruct: Aligning Language Models with Self-Generated Instructions", "https://urldefense.com/v3/__https://aclanthology.org/2023.acl-long.754/__;!!Mih3wA!A1cnW49UB7ZYc_dz04A2Yk97BivF5qoLe0P0mYQsR0g-zeuOoce4V3XhI5ya4rR30de8a70DEPb4FQ9atMnlrZHtGw$"],
+            ["Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes", "https://urldefense.com/v3/__https://arxiv.org/abs/2305.02301__;!!Mih3wA!A1cnW49UB7ZYc_dz04A2Yk97BivF5qoLe0P0mYQsR0g-zeuOoce4V3XhI5ya4rR30de8a70DEPb4FQ9atMmzka9JNg$"],
+            ["Textbooks Are All You Need", "https://urldefense.com/v3/__https://arxiv.org/abs/2306.11644__;!!Mih3wA!A1cnW49UB7ZYc_dz04A2Yk97BivF5qoLe0P0mYQsR0g-zeuOoce4V3XhI5ya4rR30de8a70DEPb4FQ9atMnkL58Y_g$"],
+            ["Textbooks Are All You Need II", "Textbooks Are All You Need II"],
+            ["Alpaca", "https://urldefense.com/v3/__https://crfm.stanford.edu/2023/03/13/alpaca.html__;!!Mih3wA!A1cnW49UB7ZYc_dz04A2Yk97BivF5qoLe0P0mYQsR0g-zeuOoce4V3XhI5ya4rR30de8a70DEPb4FQ9atMnboV9SRA$"],
+            ["Vicuna", "https://urldefense.com/v3/__https://lmsys.org/blog/2023-03-30-vicuna/__;!!Mih3wA!A1cnW49UB7ZYc_dz04A2Yk97BivF5qoLe0P0mYQsR0g-zeuOoce4V3XhI5ya4rR30de8a70DEPb4FQ9atMkVzzLnqQ$"]
+        ],
+    },
      {
         "Date": "10/11/2023",
         "Presentation Title": "LLM's Application in Information Retrieval (IR)",

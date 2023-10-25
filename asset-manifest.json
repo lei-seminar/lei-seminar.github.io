@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.11a21736.css",
-    "main.js": "/static/js/main.c2a5efa7.js",
+    "main.js": "/static/js/main.5bfe79b2.js",
     "static/js/203.69f53911.chunk.js": "/static/js/203.69f53911.chunk.js",
     "static/js/787.1ecb49e4.chunk.js": "/static/js/787.1ecb49e4.chunk.js",
     "static/media/Contrastive_Learning_Talk_from_Beamer.pdf": "/static/media/Contrastive_Learning_Talk_from_Beamer.1179193bab828241e1ae.pdf",
     "index.html": "/index.html",
     "main.11a21736.css.map": "/static/css/main.11a21736.css.map",
-    "main.c2a5efa7.js.map": "/static/js/main.c2a5efa7.js.map",
+    "main.5bfe79b2.js.map": "/static/js/main.5bfe79b2.js.map",
     "203.69f53911.chunk.js.map": "/static/js/203.69f53911.chunk.js.map",
     "787.1ecb49e4.chunk.js.map": "/static/js/787.1ecb49e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11a21736.css",
-    "static/js/main.c2a5efa7.js"
+    "static/js/main.5bfe79b2.js"
   ]
 }

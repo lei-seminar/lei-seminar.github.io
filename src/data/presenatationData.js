@@ -15,7 +15,7 @@ export const ENTRIES = [
         "Date": "10/28/2023",
         "Presentation Title": "Embedding (vector) ANN search algorithms and systems with interesting open directions",
         "Speaker": "Yannis Papakonstantinou",
-        "Affiliation": "UCSD and Google Cloud",
+        "Affiliation": "Google Cloud and UCSD",
         "Relevant Papers": [],
     },
     {

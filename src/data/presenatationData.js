@@ -12,6 +12,13 @@ export const TABLE_HEADERS = [
 
 export const ENTRIES = [
     {
+        "Date": "10/28/2023",
+        "Presentation Title": "Embedding (vector) ANN search algorithms and systems with interesting open directions",
+        "Speaker": "Yannis Papakonstantinou",
+        "Affiliation": "UCSD and Google Cloud",
+        "Relevant Papers": [],
+    },
+    {
         "Date": "10/18/2023",
         "Presentation Title": "LLM's Model Distillation",
         "Speaker": "Kaicheng Wang",

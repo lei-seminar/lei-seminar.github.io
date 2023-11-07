@@ -27,7 +27,7 @@ export const ENTRIES = [
     },
     {
         "Date": "11/1/2023",
-        "Presentation Title": "Attacks ion LLMs",
+        "Presentation Title": "Attacks on LLMs",
         "Speaker": "Zihan Wang",
         "Affiliation": "UCSD",
         "Relevant Papers": [

@@ -12,6 +12,35 @@ export const TABLE_HEADERS = [
 
 export const ENTRIES = [
     {
+        "Date": "11/8/2023",
+        "Presentation Title": "Contrastive Inference Methods for LLMs",
+        "Speaker": "Sean O'Brien",
+        "Affiliation": "UCSD",
+        "Relevant Papers": [
+            ["Contrastive Decoding: Open-ended Text Generation as Optimization", "https://urldefense.com/v3/__https://arxiv.org/abs/2210.15097__;!!Mih3wA!ETRDw_FPCXAy4u95dpD0H6cu09Y_m4IDzTa0uz2PE8-fNwGOZWUNmEEprGxiI-hFs6d4nJFCUl6MloFwNTq6$"],
+            ["Contrastive Decoding Improves Reasoning in Large Language Models", "https://urldefense.com/v3/__https://arxiv.org/abs/2309.09117__;!!Mih3wA!ETRDw_FPCXAy4u95dpD0H6cu09Y_m4IDzTa0uz2PE8-fNwGOZWUNmEEprGxiI-hFs6d4nJFCUl6MllzCYIWD$"],
+            ["DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models", "https://urldefense.com/v3/__https://arxiv.org/abs/2309.03883__;!!Mih3wA!ETRDw_FPCXAy4u95dpD0H6cu09Y_m4IDzTa0uz2PE8-fNwGOZWUNmEEprGxiI-hFs6d4nJFCUl6Mlu9DDjX1$"],
+            ["Trusting Your Evidence: Hallucinate Less with Context-aware Decoding", "https://urldefense.com/v3/__https://arxiv.org/abs/2305.14739__;!!Mih3wA!ETRDw_FPCXAy4u95dpD0H6cu09Y_m4IDzTa0uz2PE8-fNwGOZWUNmEEprGxiI-hFs6d4nJFCUl6MljHuMyKy$"],
+            ["Contrastive Decoding for Open-ended Text Generation", "https://urldefense.com/v3/__https://arxiv.org/abs/2305.14739__;!!Mih3wA!ETRDw_FPCXAy4u95dpD0H6cu09Y_m4IDzTa0uz2PE8-fNwGOZWUNmEEprGxiI-hFs6d4nJFCUl6MljHuMyKy$"],
+            ["Surfacing Biases in Large Language Models using Contrastive Input Decoding", "https://urldefense.com/v3/__https://arxiv.org/abs/2305.07378__;!!Mih3wA!ETRDw_FPCXAy4u95dpD0H6cu09Y_m4IDzTa0uz2PE8-fNwGOZWUNmEEprGxiI-hFs6d4nJFCUl6Mlg9X3bbr$"],
+        ]
+    },
+    {
+        "Date": "11/1/2023",
+        "Presentation Title": "Attacks ion LLMs",
+        "Speaker": "Zihan Wang",
+        "Affiliation": "UCSD",
+        "Relevant Papers": [
+            ["Black Box Adversarial Prompting for Foundation Models", "https://urldefense.com/v3/__https://arxiv.org/abs/2302.04237__;!!Mih3wA!HmjzaAijdnIMWC19cZm-WqrweTBLi74y6LSYasMuvGHbTNm8H1aA1McQKnlIYpef1X6bbQ-ftK9mhwo6DQ$"],
+            ["On the Exploitability of Instruction Tuning", "https://urldefense.com/v3/__https://arxiv.org/abs/2306.17194__;!!Mih3wA!HmjzaAijdnIMWC19cZm-WqrweTBLi74y6LSYasMuvGHbTNm8H1aA1McQKnlIYpef1X6bbQ-ftK-fI-h9GQ$"],
+            ["Universal and Transferable Adversarial Attacks on Aligned Language Models", "https://urldefense.com/v3/__https://arxiv.org/abs/2307.15043__;!!Mih3wA!HmjzaAijdnIMWC19cZm-WqrweTBLi74y6LSYasMuvGHbTNm8H1aA1McQKnlIYpef1X6bbQ-ftK_ufvxBvg$"],
+            ["Jailbroken: How Does LLM Safety Training Fail?", "https://urldefense.com/v3/__https://arxiv.org/abs/2307.02483__;!!Mih3wA!HmjzaAijdnIMWC19cZm-WqrweTBLi74y6LSYasMuvGHbTNm8H1aA1McQKnlIYpef1X6bbQ-ftK9BhTPd6A$"],
+            ["Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection", "https://arxiv.org/abs/2302.12173"],
+            ["Misusing Tools in Large Language Models With Visual Adversarial Examples", "https://urldefense.com/v3/__https://arxiv.org/abs/2310.03185__;!!Mih3wA!HmjzaAijdnIMWC19cZm-WqrweTBLi74y6LSYasMuvGHbTNm8H1aA1McQKnlIYpef1X6bbQ-ftK_7QjJtpQ$"],
+            ["Visual Instruction Tuning", "https://arxiv.org/abs/2304.08485"]
+        ],
+    },
+    {
         "Date": "10/28/2023",
         "Presentation Title": "Embedding (vector) ANN search algorithms and systems with interesting open directions",
         "Speaker": "Yannis Papakonstantinou",
